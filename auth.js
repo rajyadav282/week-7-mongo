@@ -14,7 +14,7 @@ function auth(req, res, next) {
             message: "Incorrect creds"
         })   
     }   
-}
+} 
   
 module.exports = {
     auth,  
