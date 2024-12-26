@@ -17,6 +17,6 @@ function auth(req, res, next) {
 }
   
 module.exports = {
-    auth,
+    auth,  
     JWT_SECRET
 }
