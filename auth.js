@@ -13,7 +13,7 @@ function auth(req, res, next) {
         res.status(403).json({
             message: "Incorrect creds"
         })   
-    }
+    }   
 }
 
 module.exports = {
